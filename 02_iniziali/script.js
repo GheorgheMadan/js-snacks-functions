@@ -29,12 +29,10 @@ const ArrayIniziali2 = arr =>{
         
 }
 // invoco l'arrow function
-const inizialiNomi2 = ArrayIniziali2(names)
-console.log(inizialiNomi2)
+console.log(ArrayIniziali2(names))
 
 // Invoca la funzione qui e stampa il risultato in console
-const inizialiNomi = ArrayIniziali(names)
-console.log(inizialiNomi)
+console.log(ArrayIniziali(names))
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
